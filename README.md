@@ -99,7 +99,8 @@ This repository demonstrates a **serverless video processing workflow** using AW
 
 ## Author
 Gatla Sridhar Apoorva
-AWS Enthusiast
+| AWS Enthusiast |
 EOF
+
 
 
