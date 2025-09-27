@@ -1,4 +1,3 @@
-cat > README.md <<'EOF'
 # AWS S3-SNS-SQS-Lambda Video Processing Pipeline
 
 This repository demonstrates a **serverless video processing workflow** using AWS services including S3, SNS, SQS, and Lambda. The pipeline processes uploaded MP4 files from a raw S3 bucket, runs a lightweight transformation (using an FFmpeg layer in Lambda), and stores the processed file in the destination S3 bucket.
@@ -102,4 +101,5 @@ This repository demonstrates a **serverless video processing workflow** using AW
 Gatla Sridhar Apoorva
 AWS Enthusiast
 EOF
+
 
