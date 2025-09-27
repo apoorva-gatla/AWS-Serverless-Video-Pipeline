@@ -1,0 +1,13 @@
+FFmpeg Lambda Layer (deployed from AWS Serverless Application Repository)
+
+Steps (Serverless Application Repository):
+1. Visit the SAR app (select ffmpeg-lambda-layer).
+2. Click Deploy and follow prompts (region, application settings).
+3. After deployment finishes, open the AWS Lambda > Layers console (or the SAR deployment output). Copy the Layer ARN or the Layer's physical ID (ARN looks like: arn:aws:lambda:<region>:<account-id>:layer:<layer-name>:<version>).
+4. In your Lambda function configuration, under Layers -> Specify an ARN, paste the Layer ARN and add the layer to your function.
+
+Notes:
+- After adding the layer, the FFmpeg binary is typically available at /opt/bin/ffmpeg in the Lambda runtime.
+
+Example placeholder (replace after your deployment):
+arn:aws:lambda:<region>:<account-id>:layer:ffmpeg-layer-from-sar:1
