@@ -6,7 +6,6 @@ This repository demonstrates a **serverless video processing workflow** using AW
 ---
 
 ## Architecture
-[Architecture](architecture.png)
 
 **High-level flow:**
 1. Upload video → `raw-bucket-v6`
@@ -103,3 +102,4 @@ This repository demonstrates a **serverless video processing workflow** using AW
 Gatla Sridhar Apoorva
 AWS Enthusiast
 EOF
+
