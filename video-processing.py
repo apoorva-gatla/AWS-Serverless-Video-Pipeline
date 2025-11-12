@@ -44,6 +44,3 @@ def lambda_handler(event, context):
         'body': json.dumps('Processing Complete')
     }
 
-
-
-//End of the code//
